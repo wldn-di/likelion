@@ -1,21 +1,13 @@
 
 public class Main {
     public static void main(String[] args) {
-        int a = 10;
-        int b = 3;
-        int sum = a + b;
-        System.out.println(sum);
+        //조건문 if
+        int num = 1;
 
-        int difference = a - b;
-        System.out.println("difference = " + difference);
+        if(num > 0) System.out.println("number는 양수입니다.");
+        else if(num < 0) System.out.println("number는 음수입니다.");
+        else System.out.println("number는 0입니다.");
 
-        int product = a * b;
-        System.out.println("product = " + product);
-
-        int quotient = a / b;
-        System.out.println("quotient = " + quotient);
-
-        int remainder = a % b;
-        System.out.println("remainder = " + remainder);
+        //조건문 switch
     }
 }
